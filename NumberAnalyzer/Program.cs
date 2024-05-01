@@ -22,13 +22,14 @@ while (runProgram)
         {
             if (usernum < 60)
             {
-                Console.WriteLine($"{name}, your number is odd and less than 60");
+                Console.WriteLine($"{name}, {usernum} is odd and less than 60");
             }
             else
             {
-                Console.WriteLine($"{name}, your number is odd and greater than 60");
+                Console.WriteLine($"{name}, {usernum} is odd and greater than 60");
             }
         }
+        //can be just an else statement
         else if (usernum % 2 == 0)
         {
             if (usernum < 25)
@@ -41,7 +42,7 @@ while (runProgram)
             }
             else
             {
-                Console.WriteLine($"{name}, your number is even and greater than 60");
+                Console.WriteLine($"{name}, {usernum} is even and greater than 60");
             }
 
         }
